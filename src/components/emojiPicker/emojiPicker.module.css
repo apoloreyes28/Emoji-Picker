@@ -1,0 +1,62 @@
+/*
+Sass es un procesador CSS. 
+
+Es una herramienta que nos permite generar, de manera automática, hojas de 
+estilo, añadiéndoles características que no tiene CSS, y que son propias 
+de los lenguajes de programación, como pueden ser variables, funciones, 
+selectores anidados, herencia, etcétera.
+
+Estas características de los procesadores nos permiten, además, que el CSS 
+que se genera sea más fácil de mantener y sea más reutilizable.
+*/
+
+.inputContainer {
+  display: inline-flex;
+  position: relative;
+}
+
+.emojiPickerContainer {
+  position: absolute;
+
+  width: 235px;
+  height: 350px;
+
+  border: solid 1px white;
+  background-color: #222;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.emojiPickerButton {
+  display: inline-block;
+}
+
+.emojisList {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.emojiButton {
+  border: none;
+  font-size: 28px;
+  background-color: transparent;
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+}
+
+.emojiButton:hover {
+  background-color: white;
+}
+
+.search {
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+}
